@@ -45,9 +45,11 @@ class _QuestionScreenState extends State<QuestionScreen> {
       child: Container(
         margin: const EdgeInsets.all(40),
         child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
+          
+          mainAxisAlignment: MainAxisAlignment.start,
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
+            const SizedBox(height:150),
             Text(
               currentQuestion.text,
               style: GoogleFonts.lato(

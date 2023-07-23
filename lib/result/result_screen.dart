@@ -37,8 +37,9 @@ class ResultScreen extends StatelessWidget {
       child: Container(
         margin: const EdgeInsets.all(30),
         child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
+          mainAxisAlignment: MainAxisAlignment.start,
           children: [
+            const SizedBox(height:150),
             Text(
               "You answered $numCorrectAnswer out of ${questions.length} questions correctly!",
               style: const TextStyle(

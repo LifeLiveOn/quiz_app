@@ -20,7 +20,7 @@ class QuestionsSummary extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SizedBox(
-      height: 300,
+      height: 350,
       child: ListView.builder(
         itemCount: summaryData.length,
         itemBuilder: (context, index) {
